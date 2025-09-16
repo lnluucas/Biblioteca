@@ -1,17 +1,25 @@
 {
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "prompt-sync": "^4.2.0"
   },
   "name": "exercicio-biblioteca",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnluucas/Biblioteca.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lnluucas/Biblioteca/issues"
+  },
+  "homepage": "https://github.com/lnluucas/Biblioteca#readme"
 }
