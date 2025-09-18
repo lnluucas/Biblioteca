@@ -1,37 +1,75 @@
 {
   "livros": [
     {
-      "titulo": "Livro A",
-      "autor": "Autor A",
+      "titulo": "As Tranças do Rei Careca",
+      "autor": "João da Silva",
+      "emprestado": true
+    },
+    {
+      "titulo": "A Volta dos Que Não Foram",
+      "autor": "Wally Walrus",
+      "emprestado": true
+    },
+    {
+      "titulo": "O Pequeno Grande Homem",
+      "autor": "Maria Fofoca",
       "emprestado": false
     },
     {
-      "titulo": "Livro B",
-      "autor": "Autor B",
+      "titulo": "Problema Seu",
+      "autor": "José do Bairro",
       "emprestado": false
     },
     {
-      "titulo": "Livro C",
-      "autor": "Autor C",
+      "titulo": "Mistério do Pato Voador",
+      "autor": "Ana das Couves",
       "emprestado": false
     }
   ],
   "filmes": [
     {
-      "titulo": "Filme X",
-      "diretor": "Diretor X",
+      "titulo": "Por Causa Deles",
+      "diretor": "Carlos Trapalhão",
       "emprestado": false
     },
     {
-      "titulo": "Filme Y",
-      "diretor": "Diretor Y",
+      "titulo": "O Grande Babaca",
+      "diretor": "Lula Molusco",
+      "emprestado": false
+    },
+    {
+      "titulo": "A Invasão do Biscoito Gigante",
+      "diretor": "Marta Pipoca",
+      "emprestado": false
+    },
+    {
+      "titulo": "A Fuga do Pônei",
+      "diretor": "Zé da Esquina",
+      "emprestado": false
+    },
+    {
+      "titulo": "Café com Mortadela",
+      "diretor": "Ronaldo Bolacha",
       "emprestado": false
     }
   ],
   "usuarios": [
     {
       "nome": "Teste",
-      "itens": []
+      "itens": [
+        {
+          "titulo": "As Tranças do Rei Careca",
+          "autor": "João da Silva",
+          "emprestado": false,
+          "tipo": "Livro"
+        },
+        {
+          "titulo": "A Volta dos Que Não Foram",
+          "autor": "Wally Walrus",
+          "emprestado": false,
+          "tipo": "Livro"
+        }
+      ]
     }
   ]
 }
