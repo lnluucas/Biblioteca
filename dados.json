@@ -1,0 +1,37 @@
+{
+  "livros": [
+    {
+      "titulo": "Livro A",
+      "autor": "Autor A",
+      "emprestado": false
+    },
+    {
+      "titulo": "Livro B",
+      "autor": "Autor B",
+      "emprestado": false
+    },
+    {
+      "titulo": "Livro C",
+      "autor": "Autor C",
+      "emprestado": false
+    }
+  ],
+  "filmes": [
+    {
+      "titulo": "Filme X",
+      "diretor": "Diretor X",
+      "emprestado": false
+    },
+    {
+      "titulo": "Filme Y",
+      "diretor": "Diretor Y",
+      "emprestado": false
+    }
+  ],
+  "usuarios": [
+    {
+      "nome": "Teste",
+      "itens": []
+    }
+  ]
+}
